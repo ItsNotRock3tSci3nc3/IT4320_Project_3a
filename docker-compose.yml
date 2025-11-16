@@ -1,0 +1,9 @@
+version: "0.1.0"
+
+services:
+  stockapp:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
