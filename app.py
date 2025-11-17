@@ -34,7 +34,6 @@ def get_stock_data(symbol):
     return data
 
 
-
 def generate_chart(symbol, series, chart_type, start_date, end_date):
     data = get_stock_data(symbol)
 
